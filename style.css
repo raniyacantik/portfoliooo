@@ -1,0 +1,324 @@
+
+.image{
+     width: 60px;
+     margin-left: 30px;
+}
+
+.image:hover{
+     width: 75px;
+}
+
+.navbar-nav {
+     margin-left: 96px;
+}
+
+
+/* about me */
+
+.about {
+     background-color: rgb(248, 223, 241);
+     height: 700px;
+     
+}
+
+.img-fluid {
+     margin-top: 60px;
+     width: 300px;
+     border-radius: 20px;
+     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.20);
+}
+
+.headin {
+     margin-top: 40px;
+}
+
+.text {
+     margin-top: 50px;
+}
+
+.btn{
+     margin-top: 30px;
+}
+
+/* about 2 */
+#milestone {
+     background: linear-gradient(rgba(248, 248, 248, 0.85), rgba(255, 152, 229, 0.85)), url(img/Modern\ Playful\ Creative\ Portfolio\ Presentation.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 300px;
+ }
+ 
+ #milestone h1
+ #milestone p {
+     color: black;
+     margin-top: 60px;
+     
+     
+ }
+ 
+ .text2{
+     font-weight: bold;
+ }
+ 
+ /* educaion */
+
+ .img-fluidd {
+     width: 800px;
+     margin-left: 100px;
+     margin-top: 60px;
+ }
+
+ .text3 {
+     margin-top: 300px;
+ }
+
+ .about2 {
+     height: 700px;
+ }
+
+.intro h1 {
+     margin-top: 100px;
+     font-weight: bold;
+}
+
+.row1 {
+     margin-top: 40px;
+}
+
+
+
+.service {
+     padding: 32px;
+     background-color: #fff;
+     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.10);
+     margin-top: 80px;
+ }
+ 
+ .service h5 {
+     margin-top: 24px;
+     margin-bottom: 14px;
+ }
+ 
+ .service img {
+     width: 90px;
+     cursor: pointer;
+ }
+
+ .service img:hover {
+     width: 97px;
+     
+ }
+
+
+ .service1 {
+     padding: 32px;
+     background-color: #fff;
+     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.10);
+     margin-top: 80px;
+ }
+ 
+ .service1 h5 {
+     margin-top: 24px;
+     margin-bottom: 14px;
+ }
+ 
+ .service1 img {
+     width: 120px;
+     cursor: pointer;
+ }
+
+ .service1 img:hover {
+     width: 125px;
+ }
+
+ .service2 {
+     padding: 32px;
+     background-color: #fff;
+     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.10);
+     margin-top: 80px;
+ }
+ 
+ .service2 h5 {
+     margin-top: 24px;
+     margin-bottom: 14px;
+ }
+ 
+ .service2 img {
+     width: 148px;
+     cursor: pointer;
+ }
+
+ .service2 img:hover {
+     width: 154px;
+ }
+
+ /* personal skills */
+
+#about3 {
+height: 700px;
+}
+
+.row2 {
+     margin-top: 80px;
+}
+    
+.info-box {
+     align-items: center;
+     display: flex;
+}
+     
+.info-box img {
+     width: 100px;
+}
+
+.info-box img:hover {
+     width: 110px;
+}
+
+.image2 {
+     margin-top: 100px;
+         
+}
+   
+.info-box h5 {
+     font-size: 30px;
+}
+
+.judul h2 {
+     margin-bottom: 60px;
+     margin-top: 40px;
+     margin-left: 200px;
+     font-weight: bold;
+}
+
+/* project */
+
+.container1 {
+     width: 100%;
+     display: flex;
+     padding: 0 20px;
+     height: 900px;
+     margin-top: 80px;
+     background: linear-gradient(rgba(235, 145, 197, 0.85), rgba(252, 213, 239, 0.85))
+ }
+ 
+ .slide1   {
+     height: 80vh;
+     border-radius: 20px;
+     margin: 10px;
+     cursor: pointer;
+     color: #fff;
+     flex: 1;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     /* position: relative; */
+     transition: all 0.7s ease-in-out;
+     filter: blur(4px);
+     margin-top: 200px;
+     
+ }
+
+
+ 
+ .slide1 h3 {
+     position: absolute;
+     font-size: clamp(1rem, 5vw, 5rem);
+     bottom: 20px;
+     left: 20px;
+     margin: 0;
+     opacity: 0;
+     background-color: #e3fdf5;
+     background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+     -webkit-background-clip: text;
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ 
+ .slide1.active1 {
+     flex: 10;
+     filter: blur(0px);
+ }
+ 
+ .slide1.active1 h3 {
+     opacity: 1;
+     transition: opacity 0.3s ease-in 0.4s;
+ }
+ 
+ .judull h2{
+     font-weight: bold;
+     margin-top: 60px;
+     margin-left: 60px;
+ }
+ 
+ /* O */
+
+ @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 567em) {
+    body {
+      margin-bottom: 700px;
+    }
+    .footer {
+      height: 700px;
+    }
+}
+
+.row {
+    margin-top: 50px;
+}
+
+footer {
+  padding-top: 30px;
+  background: linear-gradient(rgba(245, 241, 243, 0.85), rgba(250, 122, 207, 0.85));
+  color: #080808;
+}
+
+footer a {
+  color: #070707;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #d84fa3;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.8em 2em;
+    margin-bottom: 20px;
+}
+
+.btnn1 {
+    color: #999;
+    margin-bottom: 50px;
+}
+
+.hh {
+    font-weight: bold;
+}
